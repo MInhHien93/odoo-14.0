@@ -9,7 +9,7 @@ class MyPet(models.Model):
     name = fields.Char('Pet Name', required=True)
     nickname = fields.Char('Nickname')
     description = fields.Text('My pet description')
-    age = fields.Integer('Age', required=1)
+    age = fields.Integer('Age', default=1)
     weight = fields.Float('Weight')
     dob = fields.Date('Dob', required=False)
     gender = fields.Selection([

@@ -9,5 +9,5 @@ class MyPetPlus(models.Model):
 
     toy = fields.Char('Pet Toy', required=False)
 
-    age = fields.Integer('Age', required=2)
+    age = fields.Integer('Age', default=2)
     gender = fields.Selection(selection_add=[('sterilization', 'Sterilization')])

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <data>
         <record id="super_pet_form_view" model="ir.ui.view">
@@ -46,7 +47,7 @@
                             <page name="additional_information" string="Additional Information">
                                 <group>
                                     <group string="Images">
-                                        <field name="pet_image" string="Pet's Image" weidget="image"/>
+                                        <field name="pet_image" string="Pet's Image" widget="image"/>
                                     </group>
                                     <group string="Products">
                                         <field name="product_ids" widget="many2many_tags"/>
@@ -86,9 +87,9 @@
         </record>
 
         <menuitem id="menu_super_pet"
-            name="Super Pet"
-            action="action_super_pet"
-            sequence="10"
-            groups="base.group_user"/>
+                  name="Super Pet"
+                  action="action_super_pet"
+                  sequence="10"
+                  groups="base.group_user"/>
     </data>
 </odoo>

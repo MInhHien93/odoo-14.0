@@ -13,6 +13,7 @@
         'security/ir.model.access.csv',
         'views/my_pet_plus_views.xml',
         'views/product_pet_views.xml',
+        'views/my_pet_views.xml',
     ],
     'installable': True,
     'application': True,
